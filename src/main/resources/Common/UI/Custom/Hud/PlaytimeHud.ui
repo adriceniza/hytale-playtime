@@ -1,0 +1,13 @@
+Group #PlaytimeHud {
+  LayoutMode: Right;
+  Anchor: (Right: 10, Top: 10);
+
+  Group #Content {
+    LayoutMode: Right;
+
+    Label #MyLabel {
+        Style: (FontSize: 16);
+        Text: "Playtime:";
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Group": "dev.zeni",
+  "Name": "Playtime Tracker",
+  "Version": "${version}",
+  "Description": "Trackea el tiempo jugado por mundo y muestra una lista con /playtime",
+  "Authors": [
+    {
+      "Name": "zeni",
+      "Email": "adriancenizadev@gmail.com",
+      "Url": "https://github.com/adriceniza"
+    }
+  ],
+  "Website": "https://github.com/adriceniza/HytalePlaytimeTrackerMod",
+  "ServerVersion": "*",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": true,
+  "Main": "com.zeni.playtime.PlaytimeTrackerPlugin"
+}
