@@ -1,6 +1,7 @@
 package com.zeni.playtime.commands;
 
 import com.hypixel.hytale.server.core.Message;
+import com.hypixel.hytale.server.core.command.system.CommandOwner;
 import com.hypixel.hytale.server.core.command.system.basecommands.AbstractPlayerCommand;
 import com.hypixel.hytale.server.core.command.system.CommandContext;
 import com.hypixel.hytale.server.core.entity.entities.Player;
@@ -28,6 +29,10 @@ public class PlaytimeCommand extends AbstractPlayerCommand {
         this.connectionListener = connectionListener;
 
         this.addSubCommand(new ToggleHUDCommand(connectionListener));
+    }
+
+    @Override
+    public void setOwner(@Nonnull CommandOwner owner) {
     }
 
     @Override
